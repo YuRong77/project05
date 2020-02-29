@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>口罩數量地圖</title>
+    <link rel="shrottcut icon" href="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/070-face-with-medical-mask-512.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" /> 
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css"></link> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css"></link> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div id="map"></div>
+        <div class="side">
+            <a class="btn" href="#"><i class="fas fa-less-than"></i></a>
+            <div class="title">
+                <h2></h2>
+                <span></span>
+                <h3>請選擇縣市</h3>
+                <select name="" id="city">
+                    <option value="">選擇縣市</option>
+                </select>
+                <h3>選擇地區</h3>
+                <select name="" id="zone"></select>
+            </div>
+            <div class="content">
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+    <script src="./js/setmap.js"></script>
+    <script src="./js/sidebar.js"></script>
+</body>
+</html>
