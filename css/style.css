@@ -98,11 +98,11 @@ html,body{
 
 .content h2{
     margin: 10px 0;
-    background: #c7c5c5;
+    background: #38a5e4;
 }
 
 .content h2:hover{
-    background: #8b8888;
+    background: #2f82b3;
     cursor: pointer;
 }
 
